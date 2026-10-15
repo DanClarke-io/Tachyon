@@ -1,0 +1,19 @@
+/* Message Preview: "Subject - preview" on one line, the preview muted and filling the rest */
+.messageListItem .subjectParent {
+	flex: 0 1 auto !important;
+	max-width: 70%;
+	min-width: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.messageListItem .messagePreview {
+	flex: 1 1 0;
+	min-width: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-weight: 400 !important;
+	opacity: .65;
+}
